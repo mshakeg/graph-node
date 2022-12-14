@@ -24,7 +24,7 @@ services:
       GRAPH_ETHEREUM_GENESIS_BLOCK_NUMBER: 1
       ETHEREUM_POLLING_INTERVAL: 2000
   ipfs:
-    image: ipfs/go-ipfs:v0.10.0
+    image: ipfs/go-ipfs:v0.17.0
     ports:
       - '5001:5001'
     volumes:
