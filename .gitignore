@@ -1,0 +1,10 @@
+.DS_Store
+
+build/
+node_modules/
+yarn-error.log
+
+# Added by cargo
+
+/target
+data
